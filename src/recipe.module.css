@@ -1,0 +1,20 @@
+/* All the CSS which we write over here will only be applied to Recipe.js component */
+
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(32, 32, 32);
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  min-width: 40%;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
